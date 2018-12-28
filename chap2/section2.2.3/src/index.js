@@ -24,7 +24,6 @@ class Post extends Component {
           this.props.content
         ),
         this.props.children
-        )
       )
     );
   }
@@ -86,11 +85,5 @@ const App = React.createElement(
   }),
   aComment
 );
-
-const App = React.createElement(Post, {
-  id: 1,
-  content: " said: this is a post!",
-  user: "Ian"
-});
 
 render(App, root);
